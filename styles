@@ -1,0 +1,15 @@
+h2{
+   text-align:left;
+   
+ 
+}
+h3{
+    text-align:left;
+    width:35%
+    
+}
+body
+{
+    background-color: black; /* Le fond de la page sera noir */
+    color: white; /* Le texte de la page sera blanc */
+}
