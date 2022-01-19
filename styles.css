@@ -1,18 +1,17 @@
-h2{
-   text-align:left;
-   
- 
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: century;
 }
-h3{
-    text-align:left;
-    width:35%
-    
+
+header{
+  background-image : url(images/background.gif);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
 }
-body
-{
-    background-color: black; /* Le fond de la page sera noir */
-    color: white; /* Le texte de la page sera blanc */
-}
-img{
-   margin-left : 3em
+
+.Les Composants a{
+  color: #fff
 }
