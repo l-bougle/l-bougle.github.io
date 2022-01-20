@@ -31,7 +31,7 @@ h1 { /*Réservé au titre du site*/
 }
 .Corps { 
     border: 7px ridge #333333; 
-    background-color: blue; 
+    background-color: white; 
     min-width: 100%;
     min-height: 10%;
     display: flex;
