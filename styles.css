@@ -1,67 +1,187 @@
-*{
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-family: century;
+body { 
+    background-image: url("Images/ImageBackground/BGCIRCUIT3480.png"); 
+    width: 90%; 
+    min-height: 800px; 
+    margin: auto; 
+
+    color: black; 
+    font-family: 'Comic Sans MS'; 
+
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
 }
+header { 
+    color: white;
+    width: 100%;
+    min-height: 100px; 
 
-header{
-  background-image : url(images/ordinateurs.jpg);
-  height: 100vh;
-  background-size: cover;
-  background-position: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
-
-.Les Composants a{
-  color:  #fff;
-  padding: 0px 20px;
-  border: 1px solid #fff;
-  position: absolute;
-  top: 10px;
-  left: 10px ;
-  text-transform: uppercase;
-  text-decoration: none;
-  font-weight: 900;
-  text-shadow: rgba(0, 0, 0, 0.7);
+h1 { /*Réservé au titre du site*/
+    border: 7px ridge #0ee2ba;
+    font-size: 350%;
+    background-color: #006951;
+    text-align: center;
+    width: 70%;
+    text-decoration: none;
 }
-
-.Les Composants span{
-  color: rgb(238, 56, 11);
-  font-weight: bold;
-  font-size: 2rem;
+.Corps { 
+    border: 7px ridge #333333; 
+    background-color: #b3b3b3; 
+    min-width: 100%;
+    min-height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
 }
-
-ul{
-  list-style: none;
-  float: right;
-  display: flex;
-  margin-top: 20px;
+nav { 
+    background-color: #333333; 
+    font-size: 130%;
+    text-align: left;
+    padding: 10px 30px 10px 30px; 
+    min-height: 400px; 
+    min-width: 360px; 
+    max-width: 360px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-around; 
+    align-items: flex-start; 
 }
-
-ul li a{
-  text-decoration: none;
-  color: #fff;
-  padding: 10px 20px ;
-  text-transform: uppercase;
-  border: 1px solid transparent;
-  margin: 10px;
-  font-weight: 500;
-  transition: 0.6s ease;
+a { 
+    color: white; 
+    text-decoration: none; 
 }
+.Articles { 
+    min-width: 400px; 
+    min-height: 500px; 
+    padding: 10px 30px 10px 30px; 
 
-ul li a:hover{
-  background: #fff
-  color: #000;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-around;
+    flex-wrap: wrap; 
+}
+.Accueil {
+    border: 3px outset #999999; 
+    color: black;
+    background-color: #cccccc;
+    box-shadow: #333333 5px 5px; 
+
+    width: 350px;
+    min-height: 200px;
+    margin: 30px; 
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+}
+h4 { 
+    font-size: 120%; 
+    background-color: none;
+    text-align: center; 
+    font-style: oblique; 
+    font-weight: normal; 
+    min-height: 20px;
+    padding: 0px 15px 0px 15px; 
+}
+.Image {
+    padding: 5px; 
+}
+.TitreArticle { 
+    color: black;
+    width: 100%;
+    min-height: 100px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+h2 { 
+    font-size: 300%;
+    background-color: none;
+    text-align: center;
+    width: 100%;
+    text-decoration: underline; 
+}
+.CorpsArticle { 
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+    align-content: space-around;
+    flex-wrap: wrap
+}
+section { 
+    border: 3px outset #999999; 
+    background-color: #cccccc;
+    box-shadow: #333333 5px 5px;
+    min-width: 300px;
+    min-height: 50px;
+    margin: 20px;
+}
+.SousTitreArticle { 
+    color: black;
+    width: 100%;
+    min-height: 100px; 
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+h3 { 
+    font-size: 200%; 
+    text-align: left;
+    font-style: oblique;
+    font-weight: normal;
+    text-decoration: underline;
+
+    width: 100%;
+    height: 20px; 
+    padding: 0px 50px 0px 50px;
+}
+.Texte { 
+    font-size: 120%;
+    text-align: justify; 
+    padding: 0px 20px 0px 20px;
+}
+img { 
+   float: right;
+   width: 30%; 
+   margin: 20px 0px 20px 30px;
 
 }
-
-ul li.active a{
-  background: #fff;
-  color: #000;
+ul { 
+    padding-left: 20px;
 }
+li { 
+    padding-left: 10px;
+}
+footer { /*Pied de page*/
+    color: white;
+    width: 100%;
+    min-height: 100px;
 
-.principale{
-  max-width: 114rem;
-  margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+cite { 
+    border: 7px ridge #0ee2ba; 
+    width: 50%;
+    font-size: 110%;
+    font-style: italic;
+    background-color: #006951;
+    text-align: center;
 }
 
