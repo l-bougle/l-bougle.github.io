@@ -166,4 +166,21 @@ ul {
 li { 
     padding-left: 10px;
 }
+footer { /*Pied de page*/
+    color: white;
+    width: 100%;
+    min-height: 100px;
 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+cite { /*Citation des collaborateur dans le pied de page*/
+    border: 7px ridge #0ee2ba; /*Même personnalisation que le titre du site qui rajoute une sorte de symétrie*/
+    width: 50%;
+    font-size: 110%;
+    font-style: italic;
+    background-color: #006951;
+    text-align: center;
+}
