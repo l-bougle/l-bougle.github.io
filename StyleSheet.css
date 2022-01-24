@@ -11,7 +11,7 @@ body {/*style de la page*/
     flex-direction: column; 
     align-items: center; 
 }
-header { 
+header { /*Contient le titre du site*/
     color: white;
     width: 100%;
     min-height: 100px; 
@@ -21,7 +21,7 @@ header {
     justify-content: center;
     align-items: center;
 }
-h1 { 
+h1 { /*titre du site*/
     border: 7px ridge #0ee2ba;
     font-size: 350%;
     background-color: #006951;
@@ -29,7 +29,7 @@ h1 {
     width: 70%;
     text-decoration: none;
 }
-.Corps { 
+.Corps { /*Corps principal du site avec la navigation et les articles*/
     border: 7px ridge #333333; 
     background-color: #b3b3b3; 
     min-width: 100%;
@@ -39,7 +39,7 @@ h1 {
     justify-content: space-between;
     align-items: flex-start;
 }
-nav { 
+nav { /*Menu de navigation qui permet d'accéder aux différents articles*/
     background-color: #333333; 
     font-size: 130%;
     text-align: left;
@@ -52,11 +52,11 @@ nav {
     justify-content: space-around; 
     align-items: flex-start; 
 }
-a { 
+a { /*Personnalisation des liens*/
     color: white; 
     text-decoration: none; 
 }
-.Articles { 
+.Articles { /*Partie principale de la page qui contient les articles*/
     min-width: 400px; 
     min-height: 500px; 
     padding: 10px 30px 10px 30px; 
@@ -67,7 +67,7 @@ a {
     align-content: space-around;
     flex-wrap: wrap; 
 }
-.Accueil {
+.Accueil { /*personalisation acceuil*/
     border: 3px outset #999999; 
     color: black;
     background-color: #cccccc;
@@ -82,7 +82,7 @@ a {
     justify-content: space-around;
     align-content: center;
 }
-h4 { 
+h4 { /*Titre dans les blocs de la page d'accueil*/
     font-size: 120%; 
     background-color: none;
     text-align: center; 
@@ -91,10 +91,10 @@ h4 {
     min-height: 20px;
     padding: 0px 15px 0px 15px; 
 }
-.Image {
+.Image { /*image*/
     padding: 5px; 
 }
-.TitreArticle { 
+.TitreArticle { /* personalisation titre article en haut*/
     color: black;
     width: 100%;
     min-height: 100px;
@@ -104,14 +104,14 @@ h4 {
     justify-content: center;
     align-items: center;
 }
-h2 { 
+h2 { /*Personnalisation de la police de titre d'article*/
     font-size: 300%;
     background-color: none;
     text-align: center;
     width: 100%;
     text-decoration: underline; 
 }
-.CorpsArticle { 
+.CorpsArticle { /*Corps de l'article dans lequel se trouve les différente sections*/
     width: 100%;
 
     display: flex;
@@ -120,7 +120,7 @@ h2 {
     align-content: space-around;
     flex-wrap: wrap
 }
-section { 
+section { /*Section de l'articel avec son sous-titre et son paragraphe expliquatif*/
     border: 3px outset #999999; 
     background-color: #cccccc;
     box-shadow: #333333 5px 5px;
@@ -128,7 +128,7 @@ section {
     min-height: 50px;
     margin: 20px;
 }
-.SousTitreArticle { 
+.SousTitreArticle { /*Sous-titre de l'article, inclut dans la section*/
     color: black;
     width: 100%;
     min-height: 100px; 
@@ -138,7 +138,7 @@ section {
     justify-content: center;
     align-items: center;
 }
-h3 { 
+h3 { /*Personnalisation de la police du sous-titre */
     font-size: 200%; 
     text-align: left;
     font-style: oblique;
@@ -149,12 +149,12 @@ h3 {
     height: 20px; 
     padding: 0px 50px 0px 50px;
 }
-.Texte { 
+.Texte { /*Personnalisation de la partie principale du texte de l'article*/
     font-size: 120%;
     text-align: justify; 
     padding: 0px 20px 0px 20px;
 }
-img { 
+img { /*Personnalisation des images*/
    float: right;
    width: 30%; 
    margin: 20px 0px 20px 30px;
@@ -163,7 +163,7 @@ img {
 ul { 
     padding-left: 20px;
 }
-li { 
+li { /*Alignement de la liste à puce avec le reste du texte*/
     padding-left: 10px;
 }
 footer { /*Pied de page*/
