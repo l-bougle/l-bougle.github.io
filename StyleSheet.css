@@ -21,7 +21,7 @@ header {
     justify-content: center;
     align-items: center;
 }
-h1 { /*Réservé au titre du site*/
+h1 { 
     border: 7px ridge #0ee2ba;
     font-size: 350%;
     background-color: #006951;
